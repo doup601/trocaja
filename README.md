@@ -44,10 +44,10 @@ Detalhes em [docs/escopo.md](docs/escopo.md) e [docs/pitch.md](docs/pitch.md).
 | Entrega | Onde está |
 | --- | --- |
 | Protótipo navegável com dados mockados | `src/app`, dados em [src/data/mock](src/data/mock), API REST opcional com json-server |
-| Ambiente de teste (Jest + roteiro manual) | [docs/roteiro-testes.md](docs/roteiro-testes.md) — 33 testes automatizados, 20 cenários manuais |
+| Ambiente de teste (Jest + roteiro manual) | [docs/roteiro-testes.md](docs/roteiro-testes.md) — 33 testes automatizados passando e 20 de 20 cenários manuais aprovados |
 | README, telas e fluxos, decisões técnicas | [docs/telas-e-fluxos.md](docs/telas-e-fluxos.md), [docs/decisoes-tecnicas.md](docs/decisoes-tecnicas.md) |
-| Integração com banco (Supabase) | [docs/supabase.md](docs/supabase.md), [supabase/](supabase) |
-| Simulação rodando (print/vídeo) | [prints](docs/img/prints) e [vídeo do fluxo](docs/img/fluxo-cp5.mp4) |
+| Integração com banco (Supabase) | Projeto `trocaja` no Supabase com schema e seed aplicados — [docs/supabase.md](docs/supabase.md), [supabase/](supabase), [evidência](docs/telas-e-fluxos.md#rodando-com-o-supabase) |
+| Simulação rodando (print/vídeo) | Navegador: [prints](docs/img/prints) e [vídeo do fluxo](docs/img/fluxo-cp5.mp4) |
 
 ### ⏳ CP6 — Entrega final
 

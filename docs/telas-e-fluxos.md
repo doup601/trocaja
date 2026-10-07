@@ -60,3 +60,9 @@ flowchart TD
 | ![](img/prints/11-anunciar-preenchido.png) | ![](img/prints/12-anuncio-publicado.png) | ![](img/prints/13-perfil.png) |
 
 Vídeo do fluxo completo: [`img/fluxo-cp5.mp4`](img/fluxo-cp5.mp4).
+
+## Rodando com o Supabase
+
+| Perfil com fonte Supabase | Tabela `itens` com o anúncio criado no app |
+| --- | --- |
+| ![](img/prints/14-supabase-perfil.png) | ![](img/prints/15-supabase-table-editor.png) |
