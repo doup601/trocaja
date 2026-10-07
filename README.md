@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="docs/img/logo-horizontal.png" alt="TrocaJá" width="420">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/img/logo-horizontal-dark.png">
+    <img src="docs/img/logo-horizontal.png" alt="TrocaJá" width="420">
+  </picture>
 </p>
 
 <p align="center"><b>O mural de trocas do campus.</b><br>
