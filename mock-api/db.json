@@ -331,8 +331,8 @@
       "itemId": "i16",
       "deUsuarioId": "u6",
       "paraUsuarioId": "u5",
-      "itemOferecidoId": null,
-      "mensagem": "Tenho um fone sobrando, podemos trocar.",
+      "itemOferecidoId": "i13",
+      "mensagem": "Troco pela minha mesa dobrável, cabe certinho embaixo da luminária.",
       "status": "aceita",
       "criadaEm": "2026-09-26T12:00:00.000Z"
     }

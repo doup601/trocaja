@@ -35,4 +35,4 @@ insert into propostas (id, item_id, de_usuario_id, para_usuario_id, item_ofereci
   ('p3', 'i5', 'u1', 'u6', 'i7', 'Não tenho luminária, mas topa o Clean Code pela cadeira?', 'pendente', '2026-10-05T10:30:00.000Z'),
   ('p4', 'i4', 'u1', 'u5', null, 'Posso buscar na sexta, se ainda estiver disponível.', 'aceita', '2026-10-01T09:00:00.000Z'),
   ('p5', 'i7', 'u3', 'u1', 'i15', 'Troco pelos meus esquadros, estão quase novos.', 'recusada', '2026-09-29T16:45:00.000Z'),
-  ('p6', 'i16', 'u6', 'u5', null, 'Tenho um fone sobrando, podemos trocar.', 'aceita', '2026-09-26T12:00:00.000Z');
+  ('p6', 'i16', 'u6', 'u5', 'i13', 'Troco pela minha mesa dobrável, cabe certinho embaixo da luminária.', 'aceita', '2026-09-26T12:00:00.000Z');

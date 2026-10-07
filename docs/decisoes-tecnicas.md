@@ -39,7 +39,7 @@ As telas nunca acessam o banco diretamente. Elas usam o `AppContext`, que conver
 
 ### Dados mockados
 
-- 6 estudantes, 16 anúncios (troca e doação, 6 categorias, 3 condições, 2 reservados) e 6 propostas em todos os status.
+- 6 estudantes, 16 anúncios (troca e doação, 6 categorias, 3 condições, 2 reservados) e 6 propostas nos status pendente, aceita e recusada (o status cancelada nasce quando o usuário cancela uma proposta no app).
 - O script `npm run gerar:seed` gera `supabase/seed.sql` e `mock-api/db.json` a partir dos mesmos JSON, então mock, Supabase e json-server nunca divergem.
 - `npm run mock:api` sobe o json-server em `http://localhost:3001` como alternativa de API mock REST.
 
@@ -49,7 +49,7 @@ O app tem um único domínio pequeno (usuário, itens, propostas), então React 
 
 ### Supabase sem Auth na CP5
 
-O protótipo usa "login" por e-mail sem senha para facilitar a demonstração, por isso as políticas de RLS em `supabase/schema.sql` estão abertas para o papel `anon`. **Isso é intencional e documentado só para o protótipo.** Na CP6 o plano é usar Supabase Auth e trocar as políticas por regras com `auth.uid()`.
+O protótipo usa "login" por e-mail sem senha para facilitar a demonstração, por isso as políticas de RLS em `supabase/schema.sql` permitem ao papel `anon` ler, criar e atualizar registros. **Apagar é bloqueado** por políticas restritivas, já que o app nunca exclui dados. **Isso é intencional e documentado só para o protótipo.** Na CP6 o plano é usar Supabase Auth e trocar as políticas por regras com `auth.uid()`.
 
 Pelo mesmo motivo o cliente Supabase é criado com `persistSession: false` e não instalamos `expo-sqlite` para guardar sessão.
 
@@ -70,3 +70,4 @@ O card de anúncio mede o próprio tamanho (`onLayout`) e desenha o contorno de 
 | `expo-font` exige `expo-asset`, que não veio instalado | O teste de componente acusou; adicionamos `expo-asset` (no Android o app quebraria sem ele) |
 | Rótulos das abas cortados no web | Altura da barra calculada como `62 + insets.bottom` com `useSafeAreaInsets` |
 | Contorno de foco duplicado no campo de busca (web) | `outlineWidth: 0` no `TextInput`, que já tem borda própria |
+| `@supabase/supabase-js` e RNTL 14 exigem Node 22.13+ | Pré-requisito documentado no README |

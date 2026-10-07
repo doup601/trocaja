@@ -48,7 +48,7 @@ Execute no emulador Android (Android Studio) ou no navegador (`npm run web`). Ma
 
 **Resultado: 20 de 20 cenários aprovados.**
 
-- 1 a 18 — no navegador com dados mockados, em 07/10/2026. Os cenários 1, 4, 7, 9, 11, 14, 16 e 18 estão registrados em [`img/prints`](img/prints) e no vídeo [`img/fluxo-cp5.mp4`](img/fluxo-cp5.mp4).
+- 1 a 18 — no navegador com dados mockados, em 07/10/2026. Os cenários 1, 4, 7, 9, 11, 14 e 16 estão registrados em [`img/prints`](img/prints) e no vídeo [`img/fluxo-cp5.mp4`](img/fluxo-cp5.mp4).
 - 19 e 20 — com o Supabase do grupo: o anúncio publicado no app aparece em "Meus anúncios" com a fonte "Supabase (Postgres)" e como linha nova na tabela `itens`.
 
 | App lendo do Supabase | Linha nova no Table Editor |

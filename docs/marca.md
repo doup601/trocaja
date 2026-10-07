@@ -52,6 +52,12 @@ Ambas são do Google Fonts (licença OFL) e carregadas no app via `@expo-google-
 
 O **card de anúncio em forma de etiqueta**: cantos superiores chanfrados, furo no topo, contorno grafite com sombra deslocada e uma leve inclinação alternada, como etiquetas presas no mural. É o único elemento "ousado"; o resto da interface é sóbrio para não competir com ele.
 
+## Telas conceituais
+
+Quadro com as quatro telas do fluxo principal em moldura de celular e as decisões de design de cada uma (feito em HTML/CSS com as fontes e cores da marca, no papel de "Figma ou similar"):
+
+![Telas conceituais anotadas](img/telas-conceituais.png)
+
 ## Voz
 
 - Botões dizem a ação exata: "Propor troca", "Publicar anúncio", "Enviar proposta".

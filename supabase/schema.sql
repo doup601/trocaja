@@ -46,7 +46,7 @@ create index propostas_de_idx on propostas (de_usuario_id);
 create index propostas_para_idx on propostas (para_usuario_id);
 
 -- Row Level Security
--- ATENÇÃO: políticas abertas para o protótipo (CP5), que não usa Supabase Auth.
+-- ATENÇÃO: leitura, criação e atualização abertas para o protótipo (CP5), que não usa Supabase Auth.
 -- Na CP6, com login real, troque por políticas baseadas em auth.uid().
 alter table usuarios enable row level security;
 alter table itens enable row level security;
@@ -55,3 +55,8 @@ alter table propostas enable row level security;
 create policy "prototipo_usuarios" on usuarios for all to anon using (true) with check (true);
 create policy "prototipo_itens" on itens for all to anon using (true) with check (true);
 create policy "prototipo_propostas" on propostas for all to anon using (true) with check (true);
+
+-- Nenhum DELETE pelo app: políticas restritivas bloqueiam exclusão para o papel anon.
+create policy "prototipo_sem_delete_usuarios" on usuarios as restrictive for delete to anon using (false);
+create policy "prototipo_sem_delete_itens" on itens as restrictive for delete to anon using (false);
+create policy "prototipo_sem_delete_propostas" on propostas as restrictive for delete to anon using (false);

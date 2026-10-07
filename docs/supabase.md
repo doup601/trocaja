@@ -2,7 +2,7 @@
 
 Sem esta configuração o app funciona com os dados mockados. Siga os passos abaixo para usar o banco real.
 
-> **Projeto do grupo:** `trocaja` (região São Paulo, `sa-east-1`), URL `https://hgezneeuwitggrkudenh.supabase.co`, já com schema e seed aplicados (6 usuários, 16 itens, 6 propostas). Para rodar o app contra ele, só falta o passo 3 com a *publishable key*, que o grupo compartilha por fora do repositório. Os passos 1 e 2 servem para quem quiser montar um banco próprio.
+> **Projeto do grupo:** `trocaja` (região São Paulo, `sa-east-1`), URL `https://hgezneeuwitggrkudenh.supabase.co`, já com schema e seed aplicados (6 usuários, 16 itens, 6 propostas), mais 1 anúncio criado pelo app no teste de integração. Para rodar o app contra ele, só falta o passo 3 com a *publishable key*, que o grupo compartilha por fora do repositório. Os passos 1 e 2 servem para quem quiser montar um banco próprio.
 
 ## 1. Criar o projeto
 

@@ -31,9 +31,12 @@ export default function Perfil() {
       </View>
 
       <View style={styles.numeros}>
-        <Numero valor={meus.length} rotulo="anúncios" />
-        <Numero valor={usuario.trocasConcluidas} rotulo="trocas concluídas" />
-        <Numero valor={aceitas} rotulo="propostas aceitas" />
+        <Numero valor={meus.length} rotulo={meus.length === 1 ? 'anúncio' : 'anúncios'} />
+        <Numero
+          valor={usuario.trocasConcluidas}
+          rotulo={usuario.trocasConcluidas === 1 ? 'troca concluída' : 'trocas concluídas'}
+        />
+        <Numero valor={aceitas} rotulo={aceitas === 1 ? 'proposta aceita' : 'propostas aceitas'} />
       </View>
 
       <Txt variante="subtitulo">Meus anúncios</Txt>

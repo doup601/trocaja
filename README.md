@@ -37,7 +37,7 @@ Detalhes em [docs/escopo.md](docs/escopo.md) e [docs/pitch.md](docs/pitch.md).
 | Setup React Native/Expo e organização de pastas | [docs/decisoes-tecnicas.md](docs/decisoes-tecnicas.md#arquitetura) |
 | Marca: nome, logo, paleta, tipografia | [docs/marca.md](docs/marca.md), [assets/brand](assets/brand) |
 | Pitch, modelo de negócio e diferencial | [docs/pitch.md](docs/pitch.md) |
-| Identidade visual e telas conceituais | [brand board](docs/img/brand-board.png) e [telas](docs/telas-e-fluxos.md#telas-protótipo-rodando-no-navegador) |
+| Identidade visual e telas conceituais | [brand board](docs/img/brand-board.png), [telas conceituais anotadas](docs/img/telas-conceituais.png) e [marca](docs/marca.md#telas-conceituais) |
 
 ### ✅ CP5 — Protótipo funcional
 
@@ -47,7 +47,7 @@ Detalhes em [docs/escopo.md](docs/escopo.md) e [docs/pitch.md](docs/pitch.md).
 | Ambiente de teste (Jest + roteiro manual) | [docs/roteiro-testes.md](docs/roteiro-testes.md) — 33 testes automatizados passando e 20 de 20 cenários manuais aprovados |
 | README, telas e fluxos, decisões técnicas | [docs/telas-e-fluxos.md](docs/telas-e-fluxos.md), [docs/decisoes-tecnicas.md](docs/decisoes-tecnicas.md) |
 | Integração com banco (Supabase) | Projeto `trocaja` no Supabase com schema e seed aplicados — [docs/supabase.md](docs/supabase.md), [supabase/](supabase), [evidência](docs/telas-e-fluxos.md#rodando-com-o-supabase) |
-| Simulação rodando (print/vídeo) | Navegador: [prints](docs/img/prints) e [vídeo do fluxo](docs/img/fluxo-cp5.mp4) |
+| Simulação rodando (print/vídeo) | Navegador: [prints](docs/img/prints) e [vídeo do fluxo](docs/img/fluxo-cp5.mp4) (32 s; o GitHub não toca .mp4 na página, use *View raw* para baixar) |
 
 ### ⏳ CP6 — Entrega final
 
@@ -65,10 +65,10 @@ Planejado: login com Supabase Auth e RLS por usuário, foto do item pela câmera
 
 ## Como rodar
 
-**Pré-requisitos:** Node.js 20 ou mais novo e npm. Para Android: Android Studio com um emulador criado (ou o app Expo Go compatível com o SDK 57 no celular).
+**Pré-requisitos:** Node.js 22.13 ou mais novo (exigido pelo Supabase JS e pela Testing Library) e npm. Para Android: Android Studio com um emulador criado (ou o app Expo Go compatível com o SDK 57 no celular).
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/doup601/trocaja.git
 cd trocaja
 npm install
 npx expo start

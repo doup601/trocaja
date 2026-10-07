@@ -47,17 +47,21 @@ flowchart TD
 | --- | --- | --- |
 | ![](img/prints/01-entrar.png) | ![](img/prints/02-inicio.png) | ![](img/prints/03-busca.png) |
 
-| Detalhe | Propor troca | Trocas recebidas |
+| Detalhe | Propor troca | Proposta enviada |
 | --- | --- | --- |
-| ![](img/prints/04-detalhe.png) | ![](img/prints/05-propor.png) | ![](img/prints/07-trocas-recebidas.png) |
+| ![](img/prints/04-detalhe.png) | ![](img/prints/05-propor.png) | ![](img/prints/06-proposta-enviada.png) |
 
-| Proposta aceita | Enviadas | Validação do anúncio |
+| Trocas recebidas | Proposta aceita | Enviadas |
 | --- | --- | --- |
-| ![](img/prints/08-trocas-aceita.png) | ![](img/prints/09-trocas-enviadas.png) | ![](img/prints/10-anunciar-validacao.png) |
+| ![](img/prints/07-trocas-recebidas.png) | ![](img/prints/08-trocas-aceita.png) | ![](img/prints/09-trocas-enviadas.png) |
 
-| Anúncio preenchido | Anúncio publicado | Perfil |
+| Validação do anúncio | Anúncio preenchido | Anúncio publicado |
 | --- | --- | --- |
-| ![](img/prints/11-anunciar-preenchido.png) | ![](img/prints/12-anuncio-publicado.png) | ![](img/prints/13-perfil.png) |
+| ![](img/prints/10-anunciar-validacao.png) | ![](img/prints/11-anunciar-preenchido.png) | ![](img/prints/12-anuncio-publicado.png) |
+
+| Perfil |
+| --- |
+| ![](img/prints/13-perfil.png) |
 
 Vídeo do fluxo completo: [`img/fluxo-cp5.mp4`](img/fluxo-cp5.mp4).
 
