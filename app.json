@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "TrocaJá",
+    "slug": "trocaja",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "br.com.trocaja.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F4E04D",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "br.com.trocaja.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      "expo-font",
+      "expo-asset"
+    ],
+    "scheme": "trocaja",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

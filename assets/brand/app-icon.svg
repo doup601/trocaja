@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><rect width="1024" height="1024" fill="#F4E04D"/><g transform="translate(512 530) rotate(-10) scale(1.45) translate(-256 -256)">  <path d="M176 96 H336 L428 188 V420 Q428 456 392 456 H120 Q84 456 84 420 V188 Z" fill="#1F3FD1"/>
+  <!-- furo -->
+  <circle cx="256" cy="160" r="24" fill="#F3F5F9"/>
+  <circle cx="256" cy="160" r="24" fill="none" stroke="#22252E" stroke-width="8"/>
+  <!-- cordão passando pelo furo -->
+  <path d="M256 168 C 246 96, 300 56, 356 42" fill="none" stroke="#22252E" stroke-width="12" stroke-linecap="round"/>
+  <!-- seta de ida -->
+  <path d="M146 300 H332" fill="none" stroke="#F4E04D" stroke-width="36" stroke-linecap="round"/>
+  <path d="M300 258 L352 300 L300 342" fill="none" stroke="#F4E04D" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- seta de volta -->
+  <path d="M366 388 H180" fill="none" stroke="#FFFFFF" stroke-width="36" stroke-linecap="round"/>
+  <path d="M212 346 L160 388 L212 430" fill="none" stroke="#FFFFFF" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/></g></svg>

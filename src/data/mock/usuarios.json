@@ -1,0 +1,8 @@
+[
+  { "id": "u1", "nome": "Lia Moreira", "email": "demo@trocaja.app", "curso": "Engenharia de Software", "campus": "FIAP Paulista", "trocasConcluidas": 3 },
+  { "id": "u2", "nome": "Caio Nakamura", "email": "caio@trocaja.app", "curso": "Ciência da Computação", "campus": "FIAP Paulista", "trocasConcluidas": 7 },
+  { "id": "u3", "nome": "Bianca Torres", "email": "bianca@trocaja.app", "curso": "Arquitetura e Urbanismo", "campus": "USP Butantã", "trocasConcluidas": 2 },
+  { "id": "u4", "nome": "Rafael Souza", "email": "rafael@trocaja.app", "curso": "Medicina", "campus": "Unifesp Vila Clementino", "trocasConcluidas": 5 },
+  { "id": "u5", "nome": "Júlia Andrade", "email": "julia@trocaja.app", "curso": "Design", "campus": "Mackenzie Higienópolis", "trocasConcluidas": 9 },
+  { "id": "u6", "nome": "Diego Lima", "email": "diego@trocaja.app", "curso": "Sistemas de Informação", "campus": "FIAP Paulista", "trocasConcluidas": 1 }
+]

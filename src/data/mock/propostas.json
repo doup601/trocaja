@@ -1,0 +1,8 @@
+[
+  { "id": "p1", "itemId": "i6", "deUsuarioId": "u2", "paraUsuarioId": "u1", "itemOferecidoId": "i9", "mensagem": "Oi! Tenho um teclado mecânico que pode te interessar. Posso levar na terça no intervalo.", "status": "pendente", "criadaEm": "2026-10-06T21:00:00.000Z" },
+  { "id": "p2", "itemId": "i8", "deUsuarioId": "u4", "paraUsuarioId": "u1", "itemOferecidoId": null, "mensagem": "Minha mochila rasgou no meio do semestre, essa salvaria minha vida.", "status": "pendente", "criadaEm": "2026-10-07T08:15:00.000Z" },
+  { "id": "p3", "itemId": "i5", "deUsuarioId": "u1", "paraUsuarioId": "u6", "itemOferecidoId": "i7", "mensagem": "Não tenho luminária, mas topa o Clean Code pela cadeira?", "status": "pendente", "criadaEm": "2026-10-05T10:30:00.000Z" },
+  { "id": "p4", "itemId": "i4", "deUsuarioId": "u1", "paraUsuarioId": "u5", "itemOferecidoId": null, "mensagem": "Posso buscar na sexta, se ainda estiver disponível.", "status": "aceita", "criadaEm": "2026-10-01T09:00:00.000Z" },
+  { "id": "p5", "itemId": "i7", "deUsuarioId": "u3", "paraUsuarioId": "u1", "itemOferecidoId": "i15", "mensagem": "Troco pelos meus esquadros, estão quase novos.", "status": "recusada", "criadaEm": "2026-09-29T16:45:00.000Z" },
+  { "id": "p6", "itemId": "i16", "deUsuarioId": "u6", "paraUsuarioId": "u5", "itemOferecidoId": null, "mensagem": "Tenho um fone sobrando, podemos trocar.", "status": "aceita", "criadaEm": "2026-09-26T12:00:00.000Z" }
+]
